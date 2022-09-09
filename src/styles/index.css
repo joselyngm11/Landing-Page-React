@@ -10,3 +10,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.card{
+    margin: auto;
+    text-align: center;
+    /*border: 1px solid #dee2e6!important;*/
+    width: 260px;
+    padding: 0%;
+}
+
+/*.card-img-top{
+    height: "170px";
+    width: "260px";
+    margin: 0%;
+}*/
+
