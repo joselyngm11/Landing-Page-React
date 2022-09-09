@@ -1,19 +1,14 @@
 import React from "react";
 import imagen from "../../img/img.png"
+import Tagline from "./Tagline.jsx";
+
 
 
 
 const Container = ()=>{
     return(
-        <div id="Porfolio" className="container border-bottom ">
-            <div className="row mt-5">
-                <h3>Porfolio</h3>
-                <p className="porfolio-description"> Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
-                    id ligula porta felis euismod semper. Praesent commodo cursus magna,
-                    vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-                </p>
-            </div>
-
+        <div className="container border-bottom ">
+            <Tagline/>
             <div className="row mb-5">
                 <div className="card">
                     <img className="card-img-top" src= {imagen} ></img>
@@ -24,7 +19,7 @@ const Container = ()=>{
                         </p>
                     </div>
                     <div className="card-footer">
-                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                    <a href="#" className="boton btn btn-primary">Find Out More!</a>
                     </div>
                 </div>
 
@@ -37,7 +32,7 @@ const Container = ()=>{
                         </p>
                     </div>
                     <div className="card-footer">
-                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                    <a href="#" className="boton btn btn-primary">Find Out More!</a>
                     </div>
                 </div>
                     
@@ -50,7 +45,7 @@ const Container = ()=>{
                         </p>
                     </div>
                     <div className="card-footer">
-                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                    <a href="#" className="boton btn btn-primary">Find Out More!</a>
                     </div>
                 </div>
 
@@ -63,7 +58,7 @@ const Container = ()=>{
                         </p>
                     </div>
                     <div className="card-footer">
-                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                        <a href="#" className="boton btn btn-primary">Find Out More!</a>
                     </div>
                 </div>
             </div>
