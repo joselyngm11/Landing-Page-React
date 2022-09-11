@@ -23,3 +23,11 @@
     margin-bottom: 7px;
 }
 
+.navbar-brand{
+    padding-left: 70px;
+}
+
+.navbar-collapse{
+    justify-content: end;
+    padding-right: 70px;
+}

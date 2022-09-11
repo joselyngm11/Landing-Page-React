@@ -9,7 +9,6 @@ const Card = ()=>{
             <SmallCard/>
             <SmallCard/>
             <SmallCard/>
-
         </div>
     )
 }
