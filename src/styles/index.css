@@ -32,3 +32,11 @@
     justify-content: end;
     padding-right: 70px;
 }
+
+.footer{
+    background: black;
+    color: white;
+    height: 100px;
+    padding: 40px;
+}
+

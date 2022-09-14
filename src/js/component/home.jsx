@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
 import Container from "./Container.jsx";
+import Footer from "./Footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
 		<div className="container-fluid p-0">
 			<Navbar/>
 			<Container/>
+			<Footer/>
 		</div>
 	);
 };
