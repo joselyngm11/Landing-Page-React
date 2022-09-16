@@ -2,14 +2,14 @@ import React from "react";
 //import imagen from "../../img/img.png"
 import PropTypes from "prop-types"
 
-const SmallCardImage = (imagen)=>{
+const SmallCardImage = (props)=>{
     return(
-        <img className="card-img-top" src= {imagen} ></img>
+        <img className="card-img-top imagCard" src= {props.imagen} ></img>
     )
 }
 
 SmallCardImage.propTypes = {
-    imgagen: PropTypes.string
+    imagen: PropTypes.string
 }
 
 export default SmallCardImage

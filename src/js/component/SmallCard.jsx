@@ -1,15 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types"
-import imag from "../../img/img.png"
 import SmallCardBody from "./SmallCardBody.jsx";
 import SmallCardFooter from "./SmallCardFooter.jsx";
 import SmallCardImage from "./SmallCardImage.jsx";
 
-const SmallCard = ()=>{
+const SmallCard = (props)=>{
     return(
         <div className="card">
-            <SmallCardImage imagen={imag}/>
-            <SmallCardBody/>
+            <SmallCardImage imagen={props.imagen}/>
+            <SmallCardBody title={props.title} paragraph={props.paragraph}/>
             <SmallCardFooter/>
         </div>
     )
@@ -17,6 +16,11 @@ const SmallCard = ()=>{
 
 SmallCardImage.propTypes = {
     imagen: PropTypes.string
+}
+
+SmallCardBody.propTypes = {
+    title: PropTypes.string,
+    paragraph: PropTypes.string
 }
 
 export default SmallCard

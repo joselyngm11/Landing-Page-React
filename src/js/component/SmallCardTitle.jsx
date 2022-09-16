@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types"
 
-const SmallCardTitle = () => {
+const SmallCardTitle = (props) => {
     return(
-        <h4 className="project-name mt-4">Card Title</h4>
+        <h4 className="project-name mt-4">{props.title}</h4>
     )
 }
 
